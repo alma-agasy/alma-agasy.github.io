@@ -1,0 +1,57 @@
+/* Define custom fonts using @font-face */
+@font-face {
+    font-family: "Old English Text MT";
+    src: url("font/OldEnglishTextMT.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto Mono";
+    src: url("font/RobotoMono-Medium.ttf") format("truetype");
+    font-weight: 500; /* Medium weight */
+    font-style: normal;
+}
+
+/* General Styles */
+body {
+    font-family: "Roboto Mono", monospace;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-family: "Old English Text MT", serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-style: italic;
+    color: blue;
+    margin: 0 auto;
+}
+
+/* Image Styles */
+.styled-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Section Styles */
+section {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}

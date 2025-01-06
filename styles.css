@@ -60,6 +60,7 @@ h3 {
     margin: 0 auto;
     display: block;
     width: fit-content;
+    user-select: none;
 }
 ul{
     text-align: left;
@@ -70,4 +71,7 @@ ol{
 }
 .instagram-icon{
     width: 32px;
+}
+h3 span:hover {
+    color: blue;
 }
